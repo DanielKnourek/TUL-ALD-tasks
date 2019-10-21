@@ -14,7 +14,6 @@ public class CtyriCisla {
             int Temp;
             var StateChanged = true;
             while (StateChanged){
-                System.out.println("loop");
                 StateChanged = false;
             if (InVar1>InVar2){Temp = InVar1; InVar1 = InVar2; InVar2 = Temp; StateChanged = true; }
             if (InVar2>InVar3){Temp = InVar2; InVar2 = InVar3; InVar3 = Temp; StateChanged = true; }
