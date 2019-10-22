@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47e82fd-5d6e-4aca-ad2a-d275b4ee6405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/CtyriCisla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/CtyriCisla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/BarvaPole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +36,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cz.tul.knourek.daniel.Uloha" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -47,7 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CtyriCisla">
+  <component name="RunManager" selected="Application.BarvaPole">
+    <configuration name="BarvaPole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.BarvaPole" />
+      <module name="Uloha_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.tul.knourek.daniel.Uloha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CtyriCisla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.CtyriCisla" />
       <module name="Uloha_4" />
@@ -74,9 +93,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CtyriCisla" />
+      <item itemvalue="Application.BarvaPole" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BarvaPole" />
         <item itemvalue="Application.CtyriCisla" />
         <item itemvalue="Application.Main" />
       </list>
@@ -92,7 +113,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571677853783</updated>
-      <workItem from="1571677856611" duration="6061000" />
+      <workItem from="1571677856611" duration="6111000" />
+      <workItem from="1571727820780" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="Uloha 4">
       <created>1571678082046</created>
@@ -108,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571686848474</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uloha 4 &#10;Zadaní A Finall">
+      <created>1571686875006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571686875006</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
