@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47e82fd-5d6e-4aca-ad2a-d275b4ee6405" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/DelitelNasobek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/BarvaPole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/BarvaPole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/DelitelNasobek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/DelitelNasobek.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cv_03" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,7 +132,7 @@
       <updated>1571677853783</updated>
       <workItem from="1571677856611" duration="6111000" />
       <workItem from="1571727820780" duration="6396000" />
-      <workItem from="1571734309110" duration="1220000" />
+      <workItem from="1571734309110" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="Uloha 4">
       <created>1571678082046</created>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571728115500</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uloha 4 &#10;Zadaní B Finall /w old">
+      <created>1571741165660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571741165660</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +192,7 @@
     <MESSAGE value="Uloha 4" />
     <MESSAGE value="Uloha 4 &#10;Zadaní A Finall" />
     <MESSAGE value="Uloha 4 &#10;Zadaní B Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 &#10;Zadaní B Init" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní B Finall /w old" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 &#10;Zadaní B Finall /w old" />
   </component>
 </project>
