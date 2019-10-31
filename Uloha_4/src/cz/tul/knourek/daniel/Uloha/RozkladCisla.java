@@ -8,7 +8,7 @@ public class RozkladCisla {
 
         while (true){
             int InVal = input.nextInt();
-            if ( InVal < 0 ){break; }
+            if ( InVal < 0 ){ break; }
 
             int Zbytek = InVal;
             String OutString = "";
@@ -20,7 +20,7 @@ public class RozkladCisla {
                 }
             }
             if (Zbytek > 1){
-                OutString += " " + Zbytek;
+                OutString += ""+Zbytek;
             }
 
             System.out.printf("%s%n",OutString);

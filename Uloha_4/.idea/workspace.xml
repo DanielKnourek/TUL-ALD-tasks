@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47e82fd-5d6e-4aca-ad2a-d275b4ee6405" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/RozkladCisla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/Cifry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/RozkladCisla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/RozkladCisla.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RozkladCisla">
+  <component name="RunManager" selected="Application.Cifry">
     <configuration name="BarvaPole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.BarvaPole" />
       <module name="Uloha_4" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CtyriCisla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.CtyriCisla" />
+    <configuration name="Cifry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.Cifry" />
       <module name="Uloha_4" />
       <extension name="coverage">
         <pattern>
@@ -121,18 +121,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.CtyriCisla" />
       <item itemvalue="Application.BarvaPole" />
       <item itemvalue="Application.DelitelNasobek" />
       <item itemvalue="Application.RozkladCisla" />
+      <item itemvalue="Application.Cifry" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cifry" />
         <item itemvalue="Application.RozkladCisla" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DelitelNasobek" />
         <item itemvalue="Application.BarvaPole" />
-        <item itemvalue="Application.CtyriCisla" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,9 @@
       <workItem from="1571727820780" duration="6396000" />
       <workItem from="1571734309110" duration="5422000" />
       <workItem from="1571839006930" duration="1265000" />
-      <workItem from="1572335824740" duration="4823000" />
+      <workItem from="1572335824740" duration="5937000" />
+      <workItem from="1572467796482" duration="1350000" />
+      <workItem from="1572508617763" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="Uloha 4">
       <created>1571678082046</created>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571742235665</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Uloha 4 &#10;Zadaní D Finall">
+      <created>1572344361337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572344361337</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +228,7 @@
     <MESSAGE value="Uloha 4 &#10;Zadaní B Init" />
     <MESSAGE value="Uloha 4 &#10;Zadaní B Finall /w old" />
     <MESSAGE value="Uloha 4 &#10;Zadaní B Finall" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 &#10;Zadaní B Finall" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní D Finall" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 &#10;Zadaní D Finall" />
   </component>
 </project>
