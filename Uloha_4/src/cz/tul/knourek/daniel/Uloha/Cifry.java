@@ -7,15 +7,15 @@ public class Cifry {
         Scanner input = new Scanner(System.in);
 
         while (true){
-            Long InVal = input.nextLong();
-            if ( InVal < 0 ){ break; }
+            long InVal = input.nextLong();
+            if ( InVal <= 0 ){ break; }
 
-            Long Zbytek = InVal;
-            int SoucetCifer = 0;
-            int NasobekCifer = 1;
+            long Zbytek = Math.abs(InVal);
+            long SoucetCifer = 0L;
+            long NasobekCifer = 1L;
 
             do {
-                Long CifraN = Zbytek % 10;
+                long CifraN = Zbytek % 10;
                 Zbytek = Zbytek / 10;
                 SoucetCifer += CifraN;
                 NasobekCifer *= CifraN;
