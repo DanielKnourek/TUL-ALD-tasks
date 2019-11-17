@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e654e482-3b9f-4c43-bf53-4ecf618744c2" name="Default Changelist" comment="" />
+    <list default="true" id="f47e82fd-5d6e-4aca-ad2a-d275b4ee6405" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cz/tul/knourek/daniel/Uloha/TryFalse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Uloha_4/cz/tul/knourek/daniel/Uloha/Cifry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Uloha_4/cz/tul/knourek/daniel/Uloha/Cifry.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1RwJ9AMOYMeHEcgSnDNRCsFn6ib" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1SWSRr9qQJ9VEZOJ4cMgqxfO4Fy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Personal/Java/GUI" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="T:\Můj disk\TUL\1 ZS_ALG\HomeWork\E-learing\Uloha_3\src\cz\tul\knourek\daniel\Homework\Uloha" />
-      <recent name="T:\Můj disk\TUL\1 ZS_ALG\HomeWork\E-learing\Uloha_2\src\cz\tul\knourek\daniel\Homework\Uloha" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cz.tul.knourek.daniel.Uloha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -40,13 +56,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrumernaDenniTeplota">
-    <configuration name="PrevodSekund (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Homework.Uloha.PrevodSekund" />
-      <module name="Uloha" />
+  <component name="RunManager" selected="Application.TryFalse">
+    <configuration name="Cifry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.Cifry" />
+      <module name="Uloha_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.tul.knourek.daniel.Homework.Uloha.*" />
+          <option name="PATTERN" value="cz.tul.knourek.daniel.Uloha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,19 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrevodSekund" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrevodSekund" />
-      <module name="Uloha" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrumernaDenniTeplota" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Homework.Uloha.PrumernaDenniTeplota" />
-      <module name="Uloha" />
+    <configuration name="DelitelNasobek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.DelitelNasobek" />
+      <module name="Uloha_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.tul.knourek.daniel.Homework.Uloha.*" />
+          <option name="PATTERN" value="cz.tul.knourek.daniel.Uloha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TabulkaPoradi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Homework.Uloha.TabulkaPoradi" />
-      <module name="Uloha" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.Main" />
+      <module name="Uloha_4" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RozkladCisla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.RozkladCisla" />
+      <module name="Uloha_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.tul.knourek.daniel.Homework.Uloha.*" />
+          <option name="PATTERN" value="cz.tul.knourek.daniel.Uloha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TabulkaPozice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Homework.Uloha.TabulkaPozice" />
-      <module name="Uloha" />
+    <configuration name="TryFalse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Uloha.TryFalse" />
+      <module name="Uloha_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.tul.knourek.daniel.Homework.Uloha.*" />
+          <option name="PATTERN" value="cz.tul.knourek.daniel.Uloha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,13 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.DelitelNasobek" />
+      <item itemvalue="Application.RozkladCisla" />
+      <item itemvalue="Application.Cifry" />
+      <item itemvalue="Application.TryFalse" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrumernaDenniTeplota" />
-        <item itemvalue="Application.PrevodSekund (1)" />
-        <item itemvalue="Application.TabulkaPoradi" />
-        <item itemvalue="Application.PrevodSekund" />
-        <item itemvalue="Application.TabulkaPozice" />
+        <item itemvalue="Application.TryFalse" />
+        <item itemvalue="Application.Cifry" />
+        <item itemvalue="Application.RozkladCisla" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DelitelNasobek" />
       </list>
     </recent_temporary>
   </component>
@@ -115,26 +141,124 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e654e482-3b9f-4c43-bf53-4ecf618744c2" name="Default Changelist" comment="" />
-      <created>1570572070618</created>
+      <changelist id="f47e82fd-5d6e-4aca-ad2a-d275b4ee6405" name="Default Changelist" comment="" />
+      <created>1571677853783</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570572070618</updated>
-      <workItem from="1570572075375" duration="231000" />
-      <workItem from="1570611335814" duration="6276000" />
-      <workItem from="1570626991639" duration="2803000" />
-      <workItem from="1570641344878" duration="2996000" />
+      <updated>1571677853783</updated>
+      <workItem from="1571677856611" duration="6111000" />
+      <workItem from="1571727820780" duration="6396000" />
+      <workItem from="1571734309110" duration="5422000" />
+      <workItem from="1571839006930" duration="1265000" />
+      <workItem from="1572335824740" duration="5937000" />
+      <workItem from="1572467796482" duration="1350000" />
+      <workItem from="1572508617763" duration="2359000" />
+      <workItem from="1572685103808" duration="1028000" />
+      <workItem from="1572960556267" duration="869000" />
+      <workItem from="1572966282078" duration="23000" />
+      <workItem from="1573480524125" duration="702000" />
+      <workItem from="1573483324526" duration="437000" />
+      <workItem from="1573548149888" duration="54000" />
     </task>
+    <task id="LOCAL-00001" summary="Uloha 4">
+      <created>1571678082046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571678082046</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Uloha 4 &#10;Zadaní A Finall">
+      <created>1571686848474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571686848474</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Uloha 4 &#10;Zadaní A Finall">
+      <created>1571686875006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571686875006</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Uloha 4 &#10;Zadaní B Init">
+      <created>1571728115500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571728115500</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Uloha 4 &#10;Zadaní B Finall /w old">
+      <created>1571741165660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571741165660</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Uloha 4 &#10;Zadaní B Finall">
+      <created>1571742235665</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571742235665</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Uloha 4 &#10;Zadaní D Finall">
+      <created>1572344361337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572344361337</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Uloha 4 &#10;Zadaní E">
+      <created>1572509542705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572509542705</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Uloha 4 &#10;Zadaní E finall">
+      <created>1572512190519</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572512190519</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Uloha 4 &#10;Zadaní finall">
+      <created>1572512211046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572512211046</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="Table" />
-      </configuration>
-    </watches-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uloha 4" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní A Finall" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní B Init" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní B Finall /w old" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní B Finall" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní D Finall" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní E" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní E finall" />
+    <MESSAGE value="Uloha 4 &#10;Zadaní finall" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 &#10;Zadaní finall" />
   </component>
 </project>
