@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252d59b9-2aed-4c0a-a811-ac854ae1f633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cz/tul/knourekdaniel/uloha/TestCyklickePosloupnosti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e654e482-3b9f-4c43-bf53-4ecf618744c2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1TlMjTBMZoPadzEOAQ16chKXz5o" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1RwJ9AMOYMeHEcgSnDNRCsFn6ib" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Uloha_3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cz.tul.knourekdaniel.uloha" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="T:\Můj disk\TUL\1 ZS_ALG\HomeWork\E-learing\Uloha_2\src\cz\tul\knourek\daniel\Homework\Uloha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -44,10 +38,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Rozsah">
+  <component name="RunManager" selected="Application.VypisRealneCislo">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Uloha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="cz.tul.knourekdaniel.uloha.Main" />
-      <module name="Uloha_4" />
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Homework.Uloha.Main" />
+      <module name="Uloha" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -55,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rozsah" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.tul.knourekdaniel.uloha.Rozsah" />
-      <module name="Uloha_4" />
+    <configuration name="VypisRealneCislo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourek.daniel.Homework.Uloha.VypisRealneCislo" />
+      <module name="Uloha" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.tul.knourekdaniel.uloha.*" />
+          <option name="PATTERN" value="cz.tul.knourek.daniel.Homework.Uloha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,7 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Rozsah" />
+        <item itemvalue="Application.VypisRealneCislo" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -80,44 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="252d59b9-2aed-4c0a-a811-ac854ae1f633" name="Default Changelist" comment="" />
-      <created>1574030363778</created>
+      <changelist id="e654e482-3b9f-4c43-bf53-4ecf618744c2" name="Default Changelist" comment="" />
+      <created>1570572070618</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574030363778</updated>
-      <workItem from="1574030366232" duration="190000" />
-      <workItem from="1574030706485" duration="1520000" />
-      <workItem from="1574078473094" duration="2212000" />
-      <workItem from="1574102386445" duration="520000" />
+      <updated>1570572070618</updated>
+      <workItem from="1570572075375" duration="231000" />
+      <workItem from="1570611335814" duration="6370000" />
     </task>
-    <task id="LOCAL-00001" summary="Uloha 4 init">
-      <created>1574032177669</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1574032177669</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Uloha 4 init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 init" />
   </component>
 </project>
