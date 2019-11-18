@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="252d59b9-2aed-4c0a-a811-ac854ae1f633" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Uloha_4/cz/tul/knourekdaniel/uloha/Rozsah.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Uloha_4/cz/tul/knourekdaniel/uloha/Rozsah.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cz/tul/knourekdaniel/uloha/TestCyklickePosloupnosti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/tul/knourekdaniel/uloha/TestCyklickePosloupnosti.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1574030366232" duration="190000" />
       <workItem from="1574030706485" duration="1520000" />
       <workItem from="1574078473094" duration="2212000" />
-      <workItem from="1574102386445" duration="5680000" />
+      <workItem from="1574102386445" duration="6264000" />
     </task>
     <task id="LOCAL-00001" summary="Uloha 4 init">
       <created>1574032177669</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574102939896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uloha 4 Work witch junk">
+      <created>1574108191462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574108191462</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uloha 4 init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 init" />
+    <MESSAGE value="Uloha 4 Work witch junk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 Work witch junk" />
   </component>
 </project>
