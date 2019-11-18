@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d59b9-2aed-4c0a-a811-ac854ae1f633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cz/tul/knourekdaniel/uloha/TestCyklickePosloupnosti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Uloha_4/cz/tul/knourekdaniel/uloha/Rozsah.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Uloha_4/cz/tul/knourekdaniel/uloha/Rozsah.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/tul/knourekdaniel/uloha/TestCyklickePosloupnosti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/tul/knourekdaniel/uloha/TestCyklickePosloupnosti.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Rozsah">
+  <component name="RunManager" selected="Application.TestCyklickePosloupnosti">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="cz.tul.knourekdaniel.uloha.Main" />
       <module name="Uloha_4" />
@@ -68,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCyklickePosloupnosti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.tul.knourekdaniel.uloha.TestCyklickePosloupnosti" />
+      <module name="Uloha_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.tul.knourekdaniel.uloha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCyklickePosloupnosti" />
         <item itemvalue="Application.Rozsah" />
         <item itemvalue="Application.Main" />
       </list>
@@ -88,7 +103,7 @@
       <workItem from="1574030366232" duration="190000" />
       <workItem from="1574030706485" duration="1520000" />
       <workItem from="1574078473094" duration="2212000" />
-      <workItem from="1574102386445" duration="520000" />
+      <workItem from="1574102386445" duration="5680000" />
     </task>
     <task id="LOCAL-00001" summary="Uloha 4 init">
       <created>1574032177669</created>
@@ -97,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574032177669</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Uloha 4 init">
+      <created>1574102939896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574102939896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
