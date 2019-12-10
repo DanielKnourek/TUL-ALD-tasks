@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d59b9-2aed-4c0a-a811-ac854ae1f633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cz/tul/knourekdaniel/uloha/Vyskyt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +18,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ProjEcteuler/Problem3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,7 +134,9 @@
       <workItem from="1574078473094" duration="2212000" />
       <workItem from="1574102386445" duration="6504000" />
       <workItem from="1574170373940" duration="2467000" />
-      <workItem from="1574196479042" duration="7490000" />
+      <workItem from="1574196479042" duration="7672000" />
+      <workItem from="1574693046601" duration="31000" />
+      <workItem from="1574771165429" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="Uloha 4 init">
       <created>1574032177669</created>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574201929610</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Uloha 4 Vyskyt finall">
+      <created>1574208982554</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574208982554</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +220,7 @@
     <MESSAGE value="Uloha 4 Pocet Finall" />
     <MESSAGE value="Uloha 4 Maxima init" />
     <MESSAGE value="Uloha 4 Maxima finall" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 Maxima finall" />
+    <MESSAGE value="Uloha 4 Vyskyt finall" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uloha 4 Vyskyt finall" />
   </component>
 </project>
