@@ -1,5 +1,6 @@
 package cz.tul.knourekdaniel.uloha;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BlokovaMatice {
@@ -9,44 +10,86 @@ public class BlokovaMatice {
         int height = input.nextInt();
         int width = input.nextInt();
         int[][] matrix = loadMatrix(height, width);
-        int[] biggestDim = new int[]{0, 0};
-
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
-                int[] tmp = checkRow(x, y, matrix[x][y], matrix);
-                if (tmp[0] * tmp[1] > biggestDim[0] * biggestDim[1]) {
-                    biggestDim = tmp;
-                }
-            }
-        }
-//        System.out.println("height:"+biggestDim[1] +" width:"+biggestDim[0]);
-        System.out.println(biggestDim[1] + " " + biggestDim[0]);
+        int[] biggestDim = comparingMethod(height, width, matrix);
+        String output = (biggestDim[0] <= 0) ? "-1" : (biggestDim[0] +" "+ biggestDim[1]);
+        System.out.println(output);
     }
 
-    private static int[] checkRow(int x, int y, int currentNum, int[][] matrix) {
-        int width = 0;
-        int height = 1;
-        for (int curCol = x; curCol < matrix.length; curCol++) {
-            if (currentNum == matrix[curCol][y]) {
-                width++;
-            } else {
-                break;
+    private static int[] comparingMethod(int height, int width, int[][] matrix){
+        int[] biggestDim = new int[]{0,0};
+        int comparingNum = matrix[0][0];
+        int[] comparingRow = matrix[0];
+
+        biggestDim[1] = getBlockWidth(matrix);
+        biggestDim[0] = getBlockHeight(matrix);
+
+        for (int y = 0; y < height; y++) {
+            if (comparingNum != matrix[y][0]){
+                comparingNum = matrix[y][0];
+                comparingRow = matrix[y];
+                continue;
+            }
+            if (!checkRowValidity(matrix[y], biggestDim[1])){
+                biggestDim[0] = -1;
+                return biggestDim;
+            }
+
+            if (!Arrays.equals(comparingRow, matrix[y])){
+                biggestDim[0] = -1;
+                return biggestDim;
             }
         }
-        if (y + 1 < matrix[0].length) {
-            int[] tmpRes = checkRow(x, y + 1, currentNum, matrix);
-            if (tmpRes[0] == width) {
-                height = tmpRes[1] + 1;
+        return biggestDim;
+    }
+
+    private static boolean checkRowValidity(int[] matrix, int width) {
+        boolean vaild = true;
+        int len = 0;
+        int prev = matrix[0];
+        for (int i = 1; i < matrix.length; i++) {
+            if (len < width){
+                if (matrix[i] == prev){
+                    len++;
+                }else{
+                    len = 0;
+                }
+            }else{
+                return false;
             }
+            prev = matrix[i];
         }
-        return new int[]{width, height};
+        if (len >= width){ vaild = false;}
+        return vaild;
+    }
+
+    private static int getBlockWidth(int[][] matrix){
+        int previous = matrix[0][0];
+        int length = 0;
+        for (int x = 0; x < matrix[0].length; x++) {
+            if (previous != matrix[0][x]){
+                return length;
+            }
+            length++;
+        }
+        return length;
+    }
+    private static int getBlockHeight(int[][] matrix){
+        int previous = matrix[0][0];
+        int length = 0;
+        for (int y = 0; y < matrix.length; y++) {
+            if (previous != matrix[y][0]){
+                return length;
+            }
+            length++;
+        }
+        return length;
     }
 
     private static int[][] loadMatrix(int height, int width) {
-        int[][] matrix = new int[width][height];
+        int[][] matrix = new int[height][width];
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
-                matrix[x][y] = input.nextInt();
+                matrix[y][x] = input.nextInt();
             }
         }
         return matrix;
