@@ -1,5 +1,6 @@
 package cz.tul.knourekdaniel.uloha;
 
+import java.awt.Point;
 import java.util.Scanner;
 
 public class Hrbet {
@@ -7,82 +8,96 @@ public class Hrbet {
 
     public static void main(String[] args) {
         int height;
-        while ((height = input.nextInt()) > 0){
+        while ((height = input.nextInt()) > 0) {
             int width = input.nextInt();
-            
             int[][] matrix = loadMatrix(height, width);
             
-            int[] pos = searchRows(matrix);
-            if (pos[0] == -1) {
-                pos = searchcols(matrix);
+            int biggest = biggestNum(matrix);
+            Point start = findFirstOccurrence(matrix, biggest);
+            String out;
+            
+            int[] pos = searchRow(matrix, start, biggest);
+            if (pos[0] < 0) {
+                pos = searchCol(matrix, start, biggest);
             }
-            if (pos[0] == -1){
-                System.out.println(-1);
+            if (pos[0] < 0 ){
+                out = ""+-1;
             }else{
-                System.out.println(pos[0] + " " + pos[1] + " " + pos[2] + " " + pos[3]);
+                out = ((pos[0]+1) + " " + (pos[1]+1) + " " + (pos[2]+1) + " " + (pos[3]+1));
             }
-
+            System.out.println(out);
         }
     }
 
-    private static int[] searchcols(int[][] matrix) {
-        int[] pos = new int[4];
-        int len = 1;
-        int prev = matrix[0][0];
-        boolean found = false;
-
-        for (int i = 0; i < matrix[0].length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
-                if (i == 0 && j == 0){ continue; }
-
-                if (prev == matrix[j][i]){
-                    len++;
-                    if (!found){
-                        pos[0] = i;
-                        pos[1] = j+1;
-                    }
-                    found = true;
-                }else if (len > 1){
-                    pos[2] = pos[0]+len-1;
-                    pos[3] = pos[1];
-                    return pos;
-                }
-                prev = matrix[j][i];
-            }
-        }
-        pos[0] = -1;
-        return pos;
-    }
-
-    private static int[] searchRows(int[][] matrix) {
-        int[] pos = new int[4];
-        int len = 1;
-        int prev = matrix[0][0];
-        boolean found = false;
+    private static int[] searchCol(int[][] matrix, Point start, int num) {
+        int[] pos = new int[]{start.y, start.x, start.y, start.x};
         
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                if (i == 0 && j == 0){ continue; }
-                
-                if (prev == matrix[i][j]){
-                    len++;
-                    if (!found){
-                        pos[0] = i-len;
-                        pos[1] = j;
-                    }
-                    found = true;
-                }else if (len > 1){
-                    pos[2] = pos[0];
-                    pos[3] = pos[1]+len-1;
-                    return pos;
-                }
-                prev = matrix[i][j];
+        int len = 0;
+        for (int y = start.y; y < matrix.length; y++) {
+            if (matrix[y][start.x] == num){
+                len++;
+                pos[2] = y;
+            }else{
+                break;
             }
         }
-        pos[0] = -1;
+        if (len <= 1 || len != NumCount(matrix, num)){
+            pos[0] = -1;
+        }
         return pos;
     }
 
+
+    private static int[] searchRow(int[][] matrix, Point start, int num) {
+        int[] pos = new int[]{start.y, start.x, start.y, start.x};
+
+        int len = 0;
+        for (int x = start.x; x < matrix[0].length; x++) {
+            if (matrix[start.y][x] == num){
+                len++;
+                pos[3] = x;
+            }else{
+                break;
+            }
+        }        
+        if (len <= 1 || len != NumCount(matrix, num)) {
+            pos[0] = -1;
+        }
+        return pos;
+    }
+    
+    private static Point findFirstOccurrence(int[][] matrix, int num){
+        for (int y = 0; y < matrix.length; y++) {
+            for (int x = 0; x < matrix[y].length; x++) {
+                if (matrix[y][x] == num){
+                    return new Point(x,y);
+                }
+            }
+        }        
+        return new Point(-1, -1);
+    }
+    
+    private static int NumCount(int[][] matrix, int num) {
+        int count = 0;
+        for (int[] row : matrix) {
+            for (int cell: row) {
+                if(cell == num){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+    
+    private static int biggestNum(int[][] matrix) {
+        int biggest = Integer.MIN_VALUE;
+        for (int[] row: matrix) {
+            for (int cell: row) {
+                biggest = Math.max(cell, biggest);
+            }
+        }
+        return biggest;
+    }
 
     private static int[][] loadMatrix(int height, int width) {
         int[][] matrix = new int[height][width];
